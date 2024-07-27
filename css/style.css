@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+#main-container {
+    width: 80%;
+    margin: auto;
+}
+#heading-1 {
+    text-align: center;
+    color: white;
+}
+
+#btn-submit {
+    width: 20%;
+    margin: 2% auto;
+}
+
+.answer {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 10px;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgb(39, 50, 104) 0%, rgb(62, 44, 73) 100%);
+}
+.round {
+    border-radius: 6px;
+}
+
+.text-red {
+    color: red;
+    font-weight: 600;
+}
+
+.red-border {
+    border-color: red;
+}
